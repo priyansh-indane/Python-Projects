@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-import requests
+import requests #library for api key
 import os
 from dotenv import load_dotenv
 
