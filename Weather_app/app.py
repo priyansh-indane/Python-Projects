@@ -16,6 +16,7 @@ name_label = Label(window,text="Weather App",font=("Times New Roman",40,"bold"))
 
 name_label.place(x=35,y=20,height=50,width=650)
 
+#list containing all state names.
 list_name =  [
     "Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa","Gujarat","Haryana","Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya",  "Mizoram","Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh", "Uttarakhand",  "West Bengal"]
 com = ttk.Combobox(window,values=list_name,font=("Times New Roman",20,"bold"))
