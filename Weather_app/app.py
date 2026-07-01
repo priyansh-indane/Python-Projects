@@ -75,4 +75,5 @@ done_button = Button(window,text="Done",font=("Times New Roman",20,"bold"),comma
 
 done_button.place(y=150 , height=50 , width=300,x=200)
 
-window.mainloop()
+window.mainloop() 
+#main loop exit().
