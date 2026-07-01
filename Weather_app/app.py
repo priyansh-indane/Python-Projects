@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY=os.getenv("OWM_API_KEY")
+API_KEY=os.getenv("OWM_API_KEY") #load env file with api key.
 
 window = Tk()
 window.title("Weather App")
@@ -54,7 +54,7 @@ pre_label1 = Label(window,text='',font=("Times New Roman",25,"bold"))
 
 pre_label1.place(x=35,y=565,height=45,width=650)
 
-def get_weather():
+def get_weather(): # get weather using api key
     city_name = com.get()
     data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q="+city_name+"&appid="+API_KEY+"&units=metric").json()
     print(data)
