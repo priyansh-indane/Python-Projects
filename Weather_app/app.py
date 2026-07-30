@@ -4,6 +4,7 @@ import requests #library for api key
 import os
 from dotenv import load_dotenv
 
+#defining window size and settings
 load_dotenv()
 API_KEY=os.getenv("OWM_API_KEY") #load env file with api key.
 
