@@ -1,12 +1,13 @@
 import time
 from calendar import isleap
-
+# imporint imp libraries
 def judge_leap_year(year):
     if isleap(year):
         return True
     else:
         return False
-
+        
+#function to check month days
 def month_days(month, leap_year):
     if month in [1, 3, 5, 7, 8, 10, 12]:
         return 31
